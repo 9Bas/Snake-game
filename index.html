@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>เกมงู</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* ทำให้ body มีความสูงเต็มหน้าจอ */
+            overflow: hidden; /* ป้องกันไม่ให้มี scrollbar */
+            background-color: rgb(255, 255, 255); /* สีพื้นหลัง */
+        }
+
+        canvas {
+            display: block; /* ทำให้ canvas เป็น block element */
+            /*<canvas id="game"></canvas> <!-- No width and height specified -->*/
+        }
+    </style>    
+</head>
+
+<body>    
+    <canvas id="game"></canvas> <!-- No width and height specified --> 
+    <script src="mainG.js"></script>
+    <script src="inputG.js"></script>
+</body>
+</html>
